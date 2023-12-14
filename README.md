@@ -1,11 +1,9 @@
-Bine v-am gasit citind aceste randuri!
-Numele meu este Costache Paul Eduard ,iar acesta este proiectul pe care l-am avut de facut in cadrul materiei de POO .
-Proiectul,scris in C++, presupunea sa facem un program ce poate rezolva calcule matematice cu paranteze ,de genul :             
--34*[3^(3-1)]   sau  12.3*(4-(5^(3-7)))  sau  {2*{3+6+[2^(4*(5-7+(5)))]}}--8.5+(6^(3/1))
-Desigur , am avut de facut acest lucru de la /0 ,fara a folosi librari de genul math.h
+This is a project undertaken at the university as part of the object-oriented programming course. The project, written in C++, involved creating a program capable of solving mathematical calculations with parentheses, such as:
+-34*[3^(3-1)] or 12.3*(4-(5^(3-7))) or {2*{3+6+[2^(4*(5-7+(5)))]}}--8.5+(6^(3/1))
+Certainly, we had to handle this without using pre-made functions from libraries like math.h.
 
-Programul pe care l-am facut reuseste sa faca acest lucru, calculeaza calculele introduse ,atat din consola cat si dintr-un fisier si afiseaza fie direct rezultatul ,fie am adaugat optiunea de a putea afisa toata rezolvarea, adica fiecare rezolvare a unei paranteze afisate pe cate un rand.
+The program I developed accomplishes this task, calculating inputted expressions from both the console and a txt file. It can display either the direct result or, as an added option, the entire step-by-step solution. Each step of solving a parenthesis is displayed on a separate line.
 
-Am mai multe clase facute si folosite pentru a face acest lucru , in special pot spune ca-s mandru c-am reusit sa fac programu sa poate rezolva calcule cu paranteze intercalate(chiar daca in proiect nu se cerea acest lucru ,a fost mai mult dintr-un exces de zel din partea mea),implementand o functie recursiva in Ecuatie.h,linia 375 ,metoda CalculeazaParanteze ; si desigur mai jos metoda calul ,ce se ocupa de ordinea operatiilor . 
+Several classes were created and utilized for this purpose. I am particularly proud of implementing the capability to handle calculations with nested parentheses, even though it was not explicitly required for the project. This was done through the implementation of a recursive function in Equation.h, specifically in line 375, the method 'CalculateParentheses,' and, of course, the subsequent 'Calculate' method, which manages the order of operations.
 
-As putea scrie un text mult mai lung in care sa explic mai in detaliu cum am gandit si functioneaza in mare programu , dar nu vreau sa iasa ceva prea lung.
+I could provide a more detailed explanation of how the program was conceived and operates, but I want to avoid making this text overly lengthy.
